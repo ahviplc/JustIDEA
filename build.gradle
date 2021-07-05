@@ -2,15 +2,48 @@ plugins {
     id 'org.jetbrains.intellij' version '1.1.2'
 }
 
-group 'org.example'
-version '1.0-SNAPSHOT'
+group 'com.lc.JustIDEA'
+version 'v1.0.0'
+
+// 指定编译.java文件的JDK版本
+sourceCompatibility = 1.8
+
+// 加上 mavenLocal() ,是Gradle项目能够使用我们本地的Maven的依赖
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    // testCompile 表示依赖的范围是 test 相当于 pom.xml 文件里面的 scope 的值是 test.
+    // testCompile group: 'junit', name: 'junit', version: '4.13.2' 这个废弃 移动到 org.junit.jupiter » junit-jupiter-api
+    // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
+    // 写法一
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.8.0-M1'
+    // 写法二
+    // testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    // junit-jupiter-engine
+    // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.8.0-M1'
+    // testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    compile 'cn.hutool:hutool-all:5.7.3'
+}
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version = '2021.1.3'
+    version = '2017.3'
 }
 patchPluginXml {
     changeNotes = """
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>"""
+      v1.0.0<br>
+      <em>first version.</em>"""
+}
+
+test {
+    useJUnitPlatform()
+}
+
+// 标识字符编号为 UTF-8 防止中文乱码
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
 }

@@ -1,11 +1,18 @@
 <idea-plugin>
-    <id>org.example.JustIDEA</id>
-    <name>Plugin display name here</name>
-    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+    <id>com.lc.JustIDEA</id>
+    <name>JustIDEA</name>
+    <vendor email="ahlc@sina.cn" url="http://github.com/ahviplc">ahviplc</vendor>
 
     <description><![CDATA[
-    Enter short description for your plugin here.<br>
-    <em>most HTML tags may be used</em>
+    JustIDEA, one plugin for you.<br>
+    <ul>
+     <li>this is a plugin demo</li>
+     <li>Author: LC ahlc@sina.cn</li>
+     <li>Github: http://github.com/ahviplc</li>
+     <li>Version: v1.0.0</li>
+     <li>Quick use: Shift + Ctrl + Alt +R | Shift + Command + Alt +R</li>
+    </ul>
+    <em>by LC</em>
     ]]></description>
 
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
@@ -18,5 +25,10 @@
 
     <actions>
         <!-- Add your actions here -->
+        <action id="com.lc.JustIDEA.myHelloWorldAction" class="com.lc.JustIDEA.myHelloWorldAction" text="JustIDEA-HelloWorld"
+                description="这是一个最简单的HelloWorld提示框.">
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt R"/>
+        </action>
     </actions>
 </idea-plugin>

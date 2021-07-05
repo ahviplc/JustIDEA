@@ -5,6 +5,9 @@
 # IDEA
 .idea
 
+# 排除编译文件生成目录 build
+build
+
 # gradle
 .gradle
 
