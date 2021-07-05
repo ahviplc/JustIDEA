@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> JustIDEA, one plugin for you.
+> JustIDEA, one IDEA plugin for you.
 
 ### 🏠 [Homepage-gitee](https://gitee.com/ahviplc/JustIDEA)
 
