@@ -21,6 +21,11 @@
 
 ## Usage
 
+```markdown
+* Ctrl+Alt+Shift+R 为此 IDEA 插件的快捷键.
+* 或者 点击 IDEA 上面的菜单栏的 Tools 打开菜单之后 基本在第一个有个叫 JustIDEA-HelloWorld 选项,点击即可使用.
+```
+
 ## Links
 
 ```markdown
@@ -125,26 +130,24 @@ http://www.yiidian.com/java-swing/
 ### 1. 随记
 
 ```markdown
-
+todo
 ```
 
 ### 2. 注意点
 
 ```markdown
 * 有个IDEA官方插件 Plugin DevKit , 可以助力你开发一个IDEA插件.
-* Ctrl+Alt+Shift+R 为此 IDEA 插件的快捷键.
 ```
 
 ### 3. 小知识
 
 ```markdown
-
+todo
 ```
 
 ## Author
 
 👤 **LC ahlc@sina.cn**
-
 
 ## Show your support
 
