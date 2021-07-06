@@ -16,7 +16,11 @@
 
 ### 🏠 [Homepage-github1s](https://github1s.com/ahviplc/JustIDEA)
 
-`直接点我 在线快速下载IDEA插件 JustIDEA 用来安装吧`
+`在线下载此插件 for 2021.1 版本 IDEA`
+
+### ✨ [quick-fastgit-download-idea-plugin-2021.1](https://raw.fastgit.org/ahviplc/JustIDEA/master/dist/211/JustIDEA-v1.0.0.zip "点我快速使用fastgit下载 2021.1 版本 IDEA 适配插件")
+
+`直接点我 在线快速下载IDEA插件 JustIDEA 用来安装吧 对应 IDEA 版本 2017.3 所以这个并不是完美通用版本(待完善) 最好使用上面链接下载适配最新版IDEA的此插件`
 
 ### ✨ [quick-fastgit-download-idea-plugin](https://raw.fastgit.org/ahviplc/JustIDEA/master/dist/JustIDEA-v1.0.0.zip "点我快速使用fastgit下载IDEA插件")
 
