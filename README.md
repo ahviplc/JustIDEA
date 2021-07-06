@@ -28,6 +28,8 @@
 
 `这个是原官方github下载链接 可能慢一点 使用前四个快速下载吧.`
 
+> https://raw.githubusercontent.com/ahviplc/JustIDEA/master/dist/JustIDEA-v1.0.0.zip
+
 ### ✨ [quick-github-raw-download-idea-plugin](https://github.com/ahviplc/JustIDEA/raw/master/dist/JustIDEA-v1.0.0.zip "点我快速使用github raw下载IDEA插件")
 
 ## build & Install
