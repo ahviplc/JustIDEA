@@ -12,6 +12,10 @@
 
 ### 🏠 [Homepage-github](https://github.com/ahviplc/JustIDEA)
 
+### 🏠 [Homepage-github-fastgit](https://hub.fastgit.org/ahviplc/JustIDEA)
+
+### 🏠 [Homepage-github1s](https://github1s.com/ahviplc/JustIDEA)
+
 `直接点我 在线快速下载IDEA插件 JustIDEA 用来安装吧`
 
 ### ✨ [quick-fastgit-download-idea-plugin](https://raw.fastgit.org/ahviplc/JustIDEA/master/dist/JustIDEA-v1.0.0.zip "点我快速使用fastgit下载IDEA插件")
