@@ -2,19 +2,28 @@ plugins {
     id 'java'
     // id 'org.jetbrains.intellij' version '1.1.2'
     // 改成版本 version '1.1' 打出来的包才可很好的兼容 新版本 IDEA Since 173 到最新版本
-    id 'org.jetbrains.intellij' version '1.1'
+    // id 'org.jetbrains.intellij' version '1.1'
+    // 使用低版本 才有 updateSinceUntilBuild false | sameSinceUntilBuild false
+    // 目前先这样 后续如何兼容 再研究
+    id "org.jetbrains.intellij" version "0.4.15"
 }
 
 group 'com.lc.JustIDEA'
 version 'v1.0.0'
 
 // 指定编译.java文件的JDK版本
-sourceCompatibility = 1.8
+// sourceCompatibility = 1.8
+// 使用枚举指定JDK版本
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
 
 // 加上 mavenLocal() ,是Gradle项目能够使用我们本地的Maven的依赖
 repositories {
     mavenLocal()
     mavenCentral()
+    maven {
+        url 'https://maven.aliyun.com/repository/public'
+    }
 }
 
 dependencies {
@@ -36,7 +45,14 @@ dependencies {
 intellij {
     // version 为 2021.1 已测试 可用
     // version = '2021.1'
-    version = '2017.3'
+    // version = '2017.3'
+    // 下面 plugins 配置 先不启用
+    // plugins = ['maven']
+    version '2019.3.1'
+    type 'IU'
+    updateSinceUntilBuild false
+    sameSinceUntilBuild false
+    pluginName 'JustIDEA'
 }
 
 patchPluginXml {

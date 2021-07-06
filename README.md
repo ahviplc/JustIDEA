@@ -22,7 +22,7 @@
 
 ### ✨ [quick-jsdelivr-download-idea-2021.1-plugin](https://cdn.jsdelivr.net/gh/ahviplc/JustIDEA@master/dist/211/JustIDEA-v1.0.0.zip "点我快速使用jsdelivr下载 2021.1 版本 IDEA 适配插件")
 
-`直接点我 在线快速下载IDEA插件 JustIDEA 用来安装吧 对应 IDEA 版本 2017.3 所以这个并不是完美通用版本(待完善) 最好使用上面链接下载适配最新版IDEA的此插件`
+`直接点我 在线快速下载IDEA插件 JustIDEA 用来安装吧 对应 IDEA 版本 只要大于 2017.3 均可使用 这个是完美通用版本 最好使用下面链接 下载适配通用版JustIDEA插件 最新版IDEA也支持此插件哦.`
 
 ### ✨ [quick-fastgit-download-idea-plugin](https://raw.fastgit.org/ahviplc/JustIDEA/master/dist/JustIDEA-v1.0.0.zip "点我快速使用fastgit下载IDEA插件")
 
@@ -45,6 +45,7 @@
 ## build & Install
 
 ```markdown
+* git clone 
 * `dist/JustIDEA-v1.0.0.zip` 这个就是下载插件的dist目录.
 * Gradle管理面板 点击 JustIDEA [buildPlugin] 然后生成 build/distributions/JustIDEA-v1.0.0.zip 这就是生成的插件,可分享给别人 安装插件 直接使用.
 * 具体如何安装 请Google it => IDEA离线安装插件.
@@ -54,7 +55,7 @@
 
 ```markdown
 * Ctrl+Alt+Shift+R 为此 IDEA 插件的快捷键 使用可触发此插件.
-* 或者 点击 IDEA 上面的菜单栏的 Tools 打开菜单之后 基本在第一个有个叫 JustIDEA-HelloWorld 选项,点击即可使用.
+* 或者 点击 IDEA 上面的菜单栏的 Tools 打开菜单之后 基本在前面有个叫 JustIDEA 选项,点击即可使用.
 ```
 
 ## Links
@@ -207,8 +208,34 @@ https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html
 Plugin Compatibility with IntelliJ Platform Products | IntelliJ Platform Plugin SDK
 https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
 
-gradle 项目开发IDEA插件模板项目 - GitHub - JetBrains/gradle-intellij-plugin: Gradle plugin for building plugins for IntelliJ-based IDEs
+Gradle - Plugin: org.jetbrains.intellij -【https://github.com/JetBrains/gradle-intellij-plugin】
+https://plugins.gradle.org/plugin/org.jetbrains.intellij
+
+gradle 项目开发IDEA插件gradle依赖插件 - GitHub - JetBrains/gradle-intellij-plugin: Gradle plugin for building plugins for IntelliJ-based IDEs
 https://github.com/JetBrains/gradle-intellij-plugin
+
+Idea插件开发之Gradle_既无风雨也无晴-CSDN博客_gradle idea插件
+https://blog.csdn.net/liuyanglglg/article/details/104216638
+
+Pom Assistant - plugin for IntelliJ IDEA | JetBrains
+https://plugins.jetbrains.com/plugin/13771-pom-assistant
+
+666666 - 极其推荐-学习gradle版IDEA插件参考项目
+GitHub - rxyor/idea-plugins
+https://github.com/rxyor/idea-plugins
+
+666666 - 其实目前 build.gradle 的配置 是参考的这个
+build.gradle - rxyor/idea-plugins - GitHub1s
+https://github1s.com/rxyor/idea-plugins/blob/HEAD/build.gradle#L11
+
+Intellij IDEA gradle项目目录介绍 - 一心二念 - 博客园
+https://www.cnblogs.com/h-c-g/p/11155562.html
+
+aliyun maven仓库服务
+https://maven.aliyun.com/mvn/guide
+
+The Java Plugin gradle
+https://docs.gradle.org/current/userguide/java_plugin.html
 ```
 
 ## Notes

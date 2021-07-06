@@ -8,7 +8,7 @@
     <ul>
      <li>===插件信息===</li>
      <li>===介绍===</li>
-     <li>this is a plugin demo</li>
+     <li>JustIDEA, one IDEA plugin ❤ for you ❤.</li>
      <li>Author: LC ahlc@sina.cn</li>
      <li>Github: http://github.com/ahviplc/JustIDEA</li>
      <li>Version: v1.0.0</li>
@@ -18,7 +18,8 @@
      <li>3.0: fastgit : 将github项目链接转成fastgit快速访问版链接</li>
      <li>4.0: github1s : 将github项目链接转成github1s可编辑vscode版链接</li>
      <li>===使用===</li>
-     <li>Quick use: Ctrl + Alt + Shift + R | Command + Alt + Shift + R</li>
+     <li>* 点击 IDEA 上面的菜单栏的 Tools 打开菜单之后 基本在前面有个叫 JustIDEA 选项,点击即可使用</li>
+     <li>* Quick Shortcut Key Use: Ctrl + Alt + Shift + R | Command + Alt + Shift + R</li>
      <li><em> by LC </em></li>
     </ul>
     ]]></description>
