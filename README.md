@@ -184,6 +184,9 @@ https://statically.io/
 
 Git History
 https://github.githistory.xyz/
+
+Git History - README.md
+https://github.githistory.xyz/ahviplc/JustIDEA/blob/master/README.md
 ```
 
 ## Notes

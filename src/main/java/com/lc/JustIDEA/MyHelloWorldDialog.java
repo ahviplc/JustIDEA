@@ -101,7 +101,7 @@ public class MyHelloWorldDialog extends JDialog {
 
 		// 判断输入区是不是空
 		if (StrUtil.isEmptyIfStr(myInputTextAreaText)) {
-			JOptionPane.showMessageDialog(null, "输入区不能空(请输入github完成路径,类似【https://github.com/dromara/hutool】)", "警告提示", JOptionPane.WARNING_MESSAGE);
+			JOptionPane.showMessageDialog(null, "输入区不能空(请输入github完成路径,类似【https://github.com/ahviplc/JustIDEA】)", "警告提示", JOptionPane.WARNING_MESSAGE);
 			return;
 		}
 		// 判断是不是 https
@@ -140,7 +140,7 @@ public class MyHelloWorldDialog extends JDialog {
 
 		// 判断输入区是不是空
 		if (StrUtil.isEmptyIfStr(myInputTextAreaText)) {
-			JOptionPane.showMessageDialog(null, "输入区不能空(请输入github完成路径,类似【https://github.com/dromara/hutool】)", "警告提示", JOptionPane.WARNING_MESSAGE);
+			JOptionPane.showMessageDialog(null, "输入区不能空(请输入github完成路径,类似【https://github.com/ahviplc/JustIDEA】)", "警告提示", JOptionPane.WARNING_MESSAGE);
 			return;
 		}
 
