@@ -1,6 +1,8 @@
 plugins {
     id 'java'
-    id 'org.jetbrains.intellij' version '1.1.2'
+    // id 'org.jetbrains.intellij' version '1.1.2'
+    // 改成版本 version '1.1' 打出来的包才可很好的兼容 新版本 IDEA Since 173 到最新版本
+    id 'org.jetbrains.intellij' version '1.1'
 }
 
 group 'com.lc.JustIDEA'

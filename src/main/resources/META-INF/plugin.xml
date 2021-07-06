@@ -27,8 +27,9 @@
     <!--<idea-version since-build="211.0"></idea-version>-->
 
     <!--可用的idea-version版本 大于等于17.3均可 到2020.2版本 也就是202.*版本-->
+    <!--【until-build="202.*"】-->
     <!--203	2020.3 NOTE Java 11 is now required (blog post)-->
-    <idea-version since-build="173" until-build="202.*"></idea-version>
+    <idea-version since-build="173"></idea-version>
 
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
          on how to target different products -->
