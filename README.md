@@ -187,6 +187,22 @@ https://github.githistory.xyz/
 
 Git History - README.md
 https://github.githistory.xyz/ahviplc/JustIDEA/blob/master/README.md
+
+GitHub - JetBrains/intellij-community: IntelliJ IDEA Community Edition & IntelliJ Platform
+https://github.com/JetBrains/intellij-community/tree/master
+
+Intellij IDEA 插件开发秘籍 - kancy - 博客园
+https://www.cnblogs.com/kancy/p/10654569.html
+
+可编译 number 范围.
+Build Number Ranges | IntelliJ Platform Plugin SDK
+https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html
+
+Plugin Compatibility with IntelliJ Platform Products | IntelliJ Platform Plugin SDK
+https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+
+gradle 项目开发IDEA插件模板项目 - GitHub - JetBrains/gradle-intellij-plugin: Gradle plugin for building plugins for IntelliJ-based IDEs
+https://github.com/JetBrains/gradle-intellij-plugin
 ```
 
 ## Notes

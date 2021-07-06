@@ -34,6 +34,6 @@ hs_err_pid*
 
 # ！在每行前加感叹号，表示需要包括后面的匹配文件或文件夹 都放在最后
 !gradle/wrapper/gradle-wrapper.jar
-# 打包出去的IDEA插件 放开
-!dist/JustIDEA-v1.0.0.zip
+# 打包出去的IDEA插件 放开 dist 所有的 zip 插件
+!dist/**/*.zip
 

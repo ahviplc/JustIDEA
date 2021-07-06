@@ -1,6 +1,7 @@
 package com.lc.JustIDEA;
 
 import cn.hutool.core.lang.Console;
+
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.ui.popup.JBPopup;
