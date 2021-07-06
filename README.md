@@ -45,10 +45,15 @@
 ## build & Install
 
 ```markdown
-* git clone 
-* `dist/JustIDEA-v1.0.0.zip` 这个就是下载插件的dist目录.
-* Gradle管理面板 点击 JustIDEA [buildPlugin] 然后生成 build/distributions/JustIDEA-v1.0.0.zip 这就是生成的插件,可分享给别人 安装插件 直接使用.
+* 克隆本项目 dist目录取插件
+* git clone https://github.com/ahviplc/JustIDEA.git 或者 git clone https://gitee.com/ahviplc/JustIDEA.git
+* 进入 JustIDEA 目录.
+* `dist/JustIDEA-v1.0.0.zip` 这个就是下载通用版本插件的dist目录. 
+* 下载下来即可 本地disk离线安装此IDE插件.
 * 具体如何安装 请Google it => IDEA离线安装插件.
+* 或者 源码自行编译
+* IDEA 打开 JustIDEA 项目 待其所有的 gradle 依赖下载完成.
+* Gradle管理面板 点击 JustIDEA [buildPlugin] 然后生成 build/distributions/JustIDEA-v1.0.0.zip 这就是生成的插件,可分享给别人 安装插件 直接使用.
 ```
 
 ## Usage
