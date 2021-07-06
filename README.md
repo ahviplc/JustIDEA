@@ -22,7 +22,7 @@
 
 ### ✨ [quick-jsdelivr-download-idea-2021.1-plugin](https://cdn.jsdelivr.net/gh/ahviplc/JustIDEA@master/dist/211/JustIDEA-v1.0.0.zip "点我快速使用jsdelivr下载 2021.1 版本 IDEA 适配插件")
 
-`直接点我 在线快速下载IDEA插件 JustIDEA 用来安装吧 对应 IDEA 版本 只要大于 2017.3 均可使用 这个是完美通用版本 最好使用下面链接 下载适配通用版JustIDEA插件 最新版IDEA也支持此插件哦.`
+`直接点我 在线快速下载IDEA插件 JustIDEA 用来安装吧 对应 IDEA 版本 只要大于等于193(2019.3)均可 均可使用 这个是完美通用版本 最好使用下面链接 下载适配通用版JustIDEA插件 最新版IDEA也支持此插件哦.`
 
 ### ✨ [quick-fastgit-download-idea-plugin](https://raw.fastgit.org/ahviplc/JustIDEA/master/dist/JustIDEA-v1.0.0.zip "点我快速使用fastgit下载IDEA插件")
 

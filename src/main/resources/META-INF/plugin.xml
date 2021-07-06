@@ -12,6 +12,7 @@
      <li>Author: LC ahlc@sina.cn</li>
      <li>Github: http://github.com/ahviplc/JustIDEA</li>
      <li>Version: v1.0.0</li>
+     <li>Available IDEA Version: 对应 IDEA 版本 只要大于等于193(2019.3)均可使用此插件 最新版IDEA也支持此插件哦</li>
      <li>===功能===</li>
      <li>1.0: 随机字符串</li>
      <li>2.0: 看箴言</li>
@@ -24,13 +25,15 @@
     </ul>
     ]]></description>
 
-    <!--可用的idea-version版本 大于等于211均可 可用 已测试-->
+    <!--可用的idea-version版本 大于等于211(2021.1)均可 可用 已测试-->
     <!--<idea-version since-build="211.0"></idea-version>-->
 
-    <!--可用的idea-version版本 大于等于17.3均可 到2020.2版本 也就是202.*版本-->
+    <!--可用的idea-version版本 大于等于173(2017.3)均可 到2020.2版本 也就是202.*版本-->
+    <!--<idea-version since-build="173"></idea-version>-->
     <!--【until-build="202.*"】-->
     <!--203	2020.3 NOTE Java 11 is now required (blog post)-->
-    <idea-version since-build="173"></idea-version>
+    <!--193	2019.3 可用的idea-version版本大于等于193(2019.3)均可 当然也可以最新版本的IDEA 可用 已测试-->
+    <idea-version since-build="193"></idea-version>
 
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
          on how to target different products -->
