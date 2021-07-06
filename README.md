@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> JustIDEA, one IDEA plugin for you.
+> JustIDEA, one IDEA plugin ❤ for you ❤.
 
 ### 🏠 [Homepage-gitee](https://gitee.com/ahviplc/JustIDEA)
 
@@ -15,14 +15,15 @@
 ## build & Install
 
 ```markdown
+* `dist/JustIDEA-v1.0.0.zip` 这个就是下载插件的dist目录.
 * Gradle管理面板 点击 JustIDEA [buildPlugin] 然后生成 build/distributions/JustIDEA-v1.0.0.zip 这就是生成的插件,可分享给别人 安装插件 直接使用.
-* 具体如何安装 请Google it => IDEA离线安装插件
+* 具体如何安装 请Google it => IDEA离线安装插件.
 ```
 
 ## Usage
 
 ```markdown
-* Ctrl+Alt+Shift+R 为此 IDEA 插件的快捷键.
+* Ctrl+Alt+Shift+R 为此 IDEA 插件的快捷键 使用可触发此插件.
 * 或者 点击 IDEA 上面的菜单栏的 Tools 打开菜单之后 基本在第一个有个叫 JustIDEA-HelloWorld 选项,点击即可使用.
 ```
 
@@ -123,6 +124,30 @@ https://www.runoob.com/w3cnote/java-swing-demo-intro.html
 
 666 - Java Swing教程 - 一点教程
 http://www.yiidian.com/java-swing/
+
+Java Swing - 如何显示JDialog与父_W3Cschool代码实例
+https://www.w3cschool.cn/java/codedemo-484051831.html
+
+java-jdialog代码实例列表-0
+https://www.w3cschool.cn/java/codetag-swing-jdialog.html
+
+今日诗词 - 一言API - 诗词实时智能推荐 - 今日诗词开放接口 - 今日诗词 API
+https://www.jinrishici.com/
+
+Hutool — 🍬A set of tools that keep Java sweet.
+https://www.hutool.cn/
+
+GitHub - dromara/hutool: 🍬A set of tools that keep Java sweet.
+https://github.com/dromara/hutool
+
+fast - GitHub - dromara/hutool: 🍬A set of tools that keep Java sweet.
+https://hub.fastgit.org/dromara/hutool
+
+hutool: 🍬小而全的Java工具类库，使Java拥有函数式语言般的优雅，让Java语言也可以“甜甜的”。
+https://gitee.com/dromara/hutool
+
+Java Swing中弹出对话框的几种方式_8豆少爷博客-CSDN博客_swing弹出对话框
+https://blog.csdn.net/zhao50632/article/details/20999173
 ```
 
 ## Notes
@@ -130,7 +155,11 @@ http://www.yiidian.com/java-swing/
 ### 1. 随记
 
 ```markdown
-todo
+功能
+* 随机字符串
+* 看箴言
+* fastgit : 将github项目链接转成fastgit快速访问版链接
+* github1s : 将github项目链接转成github1s可编辑vscode版链接
 ```
 
 ### 2. 注意点
@@ -151,9 +180,9 @@ todo
 
 ## Show your support
 
-Give a ⭐️ if this project helped you!
+Give a ⭐️if this project helped you!
 
 ***
 
-_This README was generated with ❤️ by
+_This README was generated with ❤️by
 [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

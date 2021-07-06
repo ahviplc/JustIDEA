@@ -4,12 +4,20 @@
     <vendor email="ahlc@sina.cn" url="http://github.com/ahviplc">ahviplc</vendor>
 
     <description><![CDATA[
-    JustIDEA, one IDEA plugin for you.<br>
+    JustIDEA, one IDEA plugin ❤ for you ❤.<br>
     <ul>
+     <li>===插件信息===</li>
+     <li>===介绍===</li>
      <li>this is a plugin demo</li>
      <li>Author: LC ahlc@sina.cn</li>
      <li>Github: http://github.com/ahviplc</li>
      <li>Version: v1.0.0</li>
+     <li>===功能===</li>
+     <li>1.0: 随机字符串</li>
+     <li>2.0: 看箴言</li>
+     <li>3.0: fastgit : 将github项目链接转成fastgit快速访问版链接</li>
+     <li>4.0: github1s : 将github项目链接转成github1s可编辑vscode版链接</li>
+     <li>===使用===</li>
      <li>Quick use: Ctrl + Alt + Shift + R | Command + Alt + Shift + R</li>
     </ul>
     <em>by LC</em>
@@ -25,8 +33,8 @@
 
     <actions>
         <!-- Add your actions here -->
-        <action id="com.lc.JustIDEA.myHelloWorldAction" class="com.lc.JustIDEA.myHelloWorldAction" text="JustIDEA-HelloWorld"
-                description="这是一个最简单的HelloWorld提示框.">
+        <action id="com.lc.JustIDEA.myHelloWorldAction" class="com.lc.JustIDEA.myHelloWorldAction" text="JustIDEA"
+                description="JustIDEA, one IDEA plugin ❤ for you ❤. 这是一个带有简单功能IDEA插件, 外加这是内含的一个最简单的HelloWorld提示框.">
             <add-to-group group-id="ToolsMenu" anchor="first"/>
             <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt R"/>
         </action>
