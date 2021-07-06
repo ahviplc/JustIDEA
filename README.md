@@ -12,6 +12,24 @@
 
 ### 🏠 [Homepage-github](https://github.com/ahviplc/JustIDEA)
 
+`直接点我 在线快速下载IDEA插件 JustIDEA 用来安装吧`
+
+### ✨ [quick-fastgit-download-idea-plugin](https://raw.fastgit.org/ahviplc/JustIDEA/master/dist/JustIDEA-v1.0.0.zip "点我快速使用fastgit下载IDEA插件")
+
+### ✨ [quick-jsdelivr-download-idea-plugin](https://cdn.jsdelivr.net/gh/ahviplc/JustIDEA@master/dist/JustIDEA-v1.0.0.zip "点我快速使用jsdelivr下载IDEA插件")
+
+### ✨ [quick-gh-proxy-download-idea-plugin](https://gh-proxy.du33169.workers.dev/https://github.com/ahviplc/JustIDEA/blob/master/dist/JustIDEA-v1.0.0.zip "点我快速使用gh-proxy下载IDEA插件")
+
+### ✨ [quick-github.rc1844-download-idea-plugin](https://github.rc1844.workers.dev/ahviplc/JustIDEA/raw/master/dist/JustIDEA-v1.0.0.zip "点我快速使用github.rc1844下载IDEA插件")
+
+`这个 staticaly 下载下来的插件后缀会变为txt,改成zip即可安装使用.`
+
+### ✨ [quick-staticaly-download-idea-plugin](https://cdn.staticaly.com/gh/ahviplc/JustIDEA/master/dist/JustIDEA-v1.0.0.zip "点我快速使用staticaly下载IDEA插件")
+
+`这个是原官方github下载链接 可能慢一点 使用前四个快速下载吧.`
+
+### ✨ [quick-github-raw-download-idea-plugin](https://github.com/ahviplc/JustIDEA/raw/master/dist/JustIDEA-v1.0.0.zip "点我快速使用github raw下载IDEA插件")
+
 ## build & Install
 
 ```markdown
@@ -148,6 +166,18 @@ https://gitee.com/dromara/hutool
 
 Java Swing中弹出对话框的几种方式_8豆少爷博客-CSDN博客_swing弹出对话框
 https://blog.csdn.net/zhao50632/article/details/20999173
+
+Home | FastGit UK
+https://fastgit.org/
+
+jsDelivr - A free, fast, and reliable CDN for open source
+https://www.jsdelivr.com/
+
+A free CDN for developers - statically.io
+https://statically.io/
+
+Git History
+https://github.githistory.xyz/
 ```
 
 ## Notes
