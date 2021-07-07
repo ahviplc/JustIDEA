@@ -17,7 +17,6 @@ import com.lc.DataCenter.DataCenter;
  * 触发方式:
  * Ctrl+Alt+Shift+R 为此 IDEA 插件的快捷键 使用可触发此插件.
  * 或者 点击 IDEA 上面的菜单栏的 Tools 打开菜单之后 基本在第一个有个叫 JustIDEA-HelloWorld 选项,点击即可使用.
- * <p>
  */
 public class myHelloWorldAction extends AnAction {
 

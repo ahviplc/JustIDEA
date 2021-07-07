@@ -241,6 +241,12 @@ https://maven.aliyun.com/mvn/guide
 
 The Java Plugin gradle
 https://docs.gradle.org/current/userguide/java_plugin.html
+
+让Gradle支持中文 | javadoc | JavaCompile| GroovyCompile|  -- 关于 "编码 GBK 的不可映射字符"错误的解决_YLBF_DEV的专栏-CSDN博客
+https://blog.csdn.net/YLBF_DEV/article/details/51858728
+
+解读main（）方法中的String[] args - 匆匆那年匆匆走 - 博客园
+https://www.cnblogs.com/maz1/p/9144403.html
 ```
 
 ## Notes

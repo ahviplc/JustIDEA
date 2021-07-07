@@ -94,6 +94,11 @@ public class JinRiShiCiUtil {
 	// 古诗词接口url
 	private static String url = "https://v2.jinrishici.com/sentence";
 
+	/**
+	 * 获取一句古诗词
+	 *
+	 * @return 接口返回的一句古诗词
+	 */
 	public static String getOne() {
 
 		// 链式构建get请求
@@ -110,6 +115,11 @@ public class JinRiShiCiUtil {
 		return dataJsonObj.get("content").toString();
 	}
 
+	/**
+	 * 获取调用今日诗词接口所需要的token
+	 *
+	 * @return 得到的 token
+	 */
 	public static String getToken() {
 		// 缓存失效时长， 0 表示无限制，单位毫秒
 		WeakCache<Object, Object> cacheObj = CacheUtil.newWeakCache(0);
@@ -125,6 +135,14 @@ public class JinRiShiCiUtil {
 		return cacheObj.get("token").toString();
 	}
 
+	/**
+	 * main方法
+	 * <p>
+	 * 命令行执行:
+	 * java  类名   【参数1】 【参数2】 【参数3】 .。。。
+	 *
+	 * @param args 字符串数组参数args 用于获取 控制台执行main方法时 输入的程序参数
+	 */
 	public static void main(String[] args) {
 		String one = getOne();
 		Console.log("one Poem", one);

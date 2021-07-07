@@ -66,7 +66,21 @@ test {
     useJUnitPlatform()
 }
 
+// gradle 执行 JavaCompile
 // 标识字符编号为 UTF-8 防止中文乱码
 tasks.withType(JavaCompile) {
     options.encoding = "UTF-8"
+}
+
+// gradle 执行 javadoc
+// 生成javadoc出现编码问题 配置如下 即可支持中文
+javadoc {
+    options{
+        encoding "UTF-8"
+        charSet 'UTF-8'
+        author true
+        version true
+        links "http://docs.oracle.com/javase/7/docs/api"
+        title "JustIDEA"
+    }
 }
