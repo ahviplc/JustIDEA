@@ -52,6 +52,7 @@ intellij {
     type 'IU'
     updateSinceUntilBuild false
     sameSinceUntilBuild false
+    downloadSources true
     pluginName 'JustIDEA'
 }
 

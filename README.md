@@ -264,7 +264,8 @@ https://docs.gradle.org/current/userguide/java_plugin.html
 ### 3. 小知识
 
 ```markdown
-todo
+* 插件版本 id "org.jetbrains.intellij" version "0.4.15"
+* 此插件版本下 org.jetbrains.intellij.IntelliJPluginExtension 这里可配置【updateSinceUntilBuild false | sameSinceUntilBuild false】.
 ```
 
 ## Author

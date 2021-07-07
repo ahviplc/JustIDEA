@@ -1,6 +1,7 @@
 <idea-plugin>
     <id>com.lc.JustIDEA</id>
     <name>JustIDEA</name>
+    <version>v1.0.0</version>
     <vendor email="ahlc@sina.cn" url="http://github.com/ahviplc">ahviplc</vendor>
 
     <description><![CDATA[
@@ -32,7 +33,7 @@
     <!--<idea-version since-build="173"></idea-version>-->
     <!--【until-build="202.*"】-->
     <!--203	2020.3 NOTE Java 11 is now required (blog post)-->
-    <!--193	2019.3 可用的idea-version版本大于等于193(2019.3)均可 当然也可以最新版本的IDEA 可用 已测试-->
+    <!--193	2019.3 | 或写成 193.0 | 可用的idea-version版本大于等于193(2019.3)均可 当然也可以最新版本的IDEA 可用 已测试-->
     <idea-version since-build="193"></idea-version>
 
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
