@@ -259,6 +259,12 @@ https://www.cnblogs.com/maz1/p/9144403.html
 可用
 Java 复制字符串到系统剪贴板 - Java - 编程基础 - 深度开源
 https://www.open-open.com/code/view/1453188435933
+
+emoji表情大全,emoji百科,emoji含义,emoji表情包,emoji复制
+https://www.emojidaquan.com/
+
+和“down”有关的emoji - Emoji大全
+https://www.emojidaquan.com/Common/search?emoji=down
 ```
 
 ## Notes
