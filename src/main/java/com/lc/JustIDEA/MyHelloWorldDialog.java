@@ -4,10 +4,10 @@ import cn.hutool.core.lang.Console;
 import cn.hutool.core.util.RandomUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.http.HttpUtil;
+import com.lc.utils.JustIDEAUtil;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.datatransfer.StringSelection;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -112,18 +112,18 @@ public class MyHelloWorldDialog extends JDialog {
 
 		// 判断输入区是不是空
 		if (StrUtil.isEmptyIfStr(myInputTextAreaText)) {
-			JOptionPane.showMessageDialog(null, "输入区不能空(请输入github完成路径,类似【https://github.com/ahviplc/JustIDEA】)", "警告提示", JOptionPane.WARNING_MESSAGE);
+			JustIDEAUtil.showInWarningMessage("输入区不能空(请输入github完成路径, 类似【https://github.com/ahviplc/JustIDEA】)", "警告提示");
 			return;
 		}
 		// 判断是不是 https
 		if (!HttpUtil.isHttps(myInputTextAreaText)) {
-			JOptionPane.showMessageDialog(null, "不是https开头的url,类似的合法输入如下【https://github.com/dromara/hutool】)", "警告提示", JOptionPane.WARNING_MESSAGE);
+			JustIDEAUtil.showInWarningMessage("不是https开头的url, 类似的合法输入如下【https://github.com/dromara/hutool】", "警告提示");
 			return;
 		}
 
 		// 判断是不是 github url
 		if (!StrUtil.contains(myInputTextAreaText, "https://github.com")) {
-			JOptionPane.showMessageDialog(null, "不是github合法的url,类似的合法输入如下【https://github.com/dromara/hutool】)", "警告提示", JOptionPane.WARNING_MESSAGE);
+			JustIDEAUtil.showInWarningMessage("不是github合法的url, 类似的合法输入如下【https://github.com/dromara/hutool】", "警告提示");
 			return;
 		}
 
@@ -151,19 +151,19 @@ public class MyHelloWorldDialog extends JDialog {
 
 		// 判断输入区是不是空
 		if (StrUtil.isEmptyIfStr(myInputTextAreaText)) {
-			JOptionPane.showMessageDialog(null, "输入区不能空(请输入github完成路径,类似【https://github.com/ahviplc/JustIDEA】)", "警告提示", JOptionPane.WARNING_MESSAGE);
+			JustIDEAUtil.showInWarningMessage("输入区不能空(请输入github完成路径, 类似【https://github.com/ahviplc/JustIDEA】)", "警告提示");
 			return;
 		}
 
 		// 判断是不是 https
 		if (!HttpUtil.isHttps(myInputTextAreaText)) {
-			JOptionPane.showMessageDialog(null, "不是https开头的url,类似的合法输入如下【https://github.com/dromara/hutool】)", "警告提示", JOptionPane.WARNING_MESSAGE);
+			JustIDEAUtil.showInWarningMessage("不是https开头的url, 类似的合法输入如下【https://github.com/dromara/hutool】", "警告提示");
 			return;
 		}
 
 		// 判断是不是 github url
 		if (!StrUtil.contains(myInputTextAreaText, "https://github.com")) {
-			JOptionPane.showMessageDialog(null, "不是github合法的url,类似的合法输入如下【https://github.com/dromara/hutool】)", "警告提示", JOptionPane.WARNING_MESSAGE);
+			JustIDEAUtil.showInWarningMessage("不是github合法的url, 类似的合法输入如下【https://github.com/dromara/hutool】", "警告提示");
 			return;
 		}
 
@@ -184,7 +184,6 @@ public class MyHelloWorldDialog extends JDialog {
 	// 复制到系统剪贴板 按钮
 	private void CopyThatButtonHandle(ActionEvent e) {
 		// 将输出区的文本复制
-		StringSelection myShowTextAreaSelection = new StringSelection(MyShowTextArea.getText());
-		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(myShowTextAreaSelection, myShowTextAreaSelection);
+		JustIDEAUtil.setClipboardString(MyShowTextArea.getText());
 	}
 }

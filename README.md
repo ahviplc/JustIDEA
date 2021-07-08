@@ -265,6 +265,34 @@ https://www.emojidaquan.com/
 
 和“down”有关的emoji - Emoji大全
 https://www.emojidaquan.com/Common/search?emoji=down
+
+666666 - 很全的swing教程 值得一看
+Java Swing 图形界面开发（目录）
+https://blog.csdn.net/xietansheng/article/details/72814492
+
+JavaSwing_3.2: JScrollPane（滚动面板）
+https://blog.csdn.net/xietansheng/article/details/74366495
+
+JavaSwing_4.7: JPopupMenu（弹出菜单）
+https://blog.csdn.net/xietansheng/article/details/78079800
+
+JavaSwing_5.6: 系统托盘（System Tray）
+https://blog.csdn.net/xietansheng/article/details/78389278
+
+JavaSwing_5.4: 多线程并发与线程安全_XTS的专栏-CSDN博客
+https://blog.csdn.net/xietansheng/article/details/78389265
+
+Java代码截屏：使用 Java 代码截取电脑屏幕并保存
+https://blog.csdn.net/xietansheng/article/details/78453640
+
+Java操作桌面应用 --- Desktop 类_XTS的专栏-CSDN博客
+https://blog.csdn.net/xietansheng/article/details/78453718
+
+666 - Java操作系统剪贴板(Clipboard)实现复制和粘贴_XTS的专栏-CSDN博客
+https://blog.csdn.net/xietansheng/article/details/70478266
+
+666 - JavaSwing_4.2: JDialog、JOptionPane（对话框）_XTS的专栏-CSDN博客_jdialog
+https://blog.csdn.net/xietansheng/article/details/75948933
 ```
 
 ## Notes
