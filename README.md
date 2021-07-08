@@ -16,13 +16,13 @@
 
 ### 🏠 [Homepage-github1s](https://github1s.com/ahviplc/JustIDEA)
 
-❤`点我, 在线下载此插件 for 2021.1 版本 IDEA`❤
+📥 ❤`点我, 在线下载此插件 for 2021.1 版本 IDEA`❤
 
 ### ✨ [quick-fastgit-download-idea-2021.1-plugin](https://raw.fastgit.org/ahviplc/JustIDEA/master/dist/211/JustIDEA-v1.0.0.zip "点我快速使用fastgit下载 2021.1 版本 IDEA 适配插件")
 
 ### ✨ [quick-jsdelivr-download-idea-2021.1-plugin](https://cdn.jsdelivr.net/gh/ahviplc/JustIDEA@master/dist/211/JustIDEA-v1.0.0.zip "点我快速使用jsdelivr下载 2021.1 版本 IDEA 适配插件")
 
-❤`直接点我, 在线快速下载IDEA插件 JustIDEA 用来安装吧 对应 IDEA 版本 只要大于等于193(2019.3)均可 均可使用 这个是完美通用版本 最好使用下面链接 下载适配通用版JustIDEA插件 最新版IDEA也支持此插件哦.`❤
+📥 ❤`直接点我, 在线快速下载IDEA插件 JustIDEA 用来安装吧 对应 IDEA 版本 只要大于等于193(2019.3)均可 均可使用 这个是完美通用版本 最好使用下面链接 下载适配通用版JustIDEA插件 最新版IDEA也支持此插件哦.`❤
 
 ### ✨ [quick-fastgit-download-idea-plugin](https://raw.fastgit.org/ahviplc/JustIDEA/master/dist/JustIDEA-v1.0.0.zip "点我快速使用fastgit下载IDEA插件")
 
@@ -42,7 +42,7 @@
 
 ### ✨ [quick-github-raw-download-idea-plugin](https://github.com/ahviplc/JustIDEA/raw/master/dist/JustIDEA-v1.0.0.zip "点我快速使用github raw下载IDEA插件")
 
-❤`点我, 在线下载此 latest 版本插件 for IDEA版本只要大于等于193(2019.3)均可 最新版IDEA也可`❤
+📥️ ❤`点我, 在线下载此 latest 版本插件 for IDEA版本只要大于等于193(2019.3)均可 最新版IDEA也可`❤
 
 `dist/latest/JustIDEA-v1.0.0.zip` `此版本插件是开发版 对应最新开发进度的 最新版本 latest版本` `对标 dist/JustIDEA-v1.0.0.zip 此版本上新加了小功能点 但是还无法到添加新版本v1.0.1的情况`
 
