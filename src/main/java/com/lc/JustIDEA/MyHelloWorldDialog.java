@@ -7,6 +7,7 @@ import cn.hutool.http.HttpUtil;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.datatransfer.StringSelection;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -31,6 +32,7 @@ public class MyHelloWorldDialog extends JDialog {
 	private JButton FastGitButton;
 	// github1s 按钮
 	private JButton Github1sButton;
+	private JButton CopyThatButton;
 
 	public MyHelloWorldDialog() {
 		setContentPane(MyHelloWorldDialogJPanel1);
@@ -67,8 +69,17 @@ public class MyHelloWorldDialog extends JDialog {
 		});
 
 		Github1sButton.addActionListener(e -> {
-			github1sButtonHanle(e);
+			github1sButtonHandle(e);
 		});
+
+		CopyThatButton.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				CopyThatButtonHandle(e);
+			}
+		});
+
+		// pass
 	}
 
 	// 跳转按钮 Handle
@@ -130,7 +141,7 @@ public class MyHelloWorldDialog extends JDialog {
 		MyShowTextArea.setText(myInputTextAreaText);
 	}
 
-	private void github1sButtonHanle(ActionEvent e) {
+	private void github1sButtonHandle(ActionEvent e) {
 
 		Console.log("github1sButtonHanle...ActionEvent...ID...", e.getID());
 
@@ -168,5 +179,12 @@ public class MyHelloWorldDialog extends JDialog {
 
 		// 在输出区 显示最后处理完成的 结果
 		MyShowTextArea.setText(myInputTextAreaText);
+	}
+
+	// 复制到系统剪贴板 按钮
+	private void CopyThatButtonHandle(ActionEvent e) {
+		// 将输出区的文本复制
+		StringSelection myShowTextAreaSelection = new StringSelection(MyShowTextArea.getText());
+		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(myShowTextAreaSelection, myShowTextAreaSelection);
 	}
 }

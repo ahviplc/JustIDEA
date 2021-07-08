@@ -19,6 +19,7 @@
      <li>2.0: 看箴言</li>
      <li>3.0: fastgit : 将github项目链接转成fastgit快速访问版链接</li>
      <li>4.0: github1s : 将github项目链接转成github1s可编辑vscode版链接</li>
+     <li>5.0: 复制到系统剪贴板 : 将输入区文本内容复制到系统剪贴板</li>
      <li>===使用===</li>
      <li>* 点击 IDEA 上面的菜单栏的 Tools 打开菜单之后 基本在前面有个叫 JustIDEA 选项,点击即可使用</li>
      <li>* Quick Shortcut Key Use: Ctrl + Alt + Shift + R | Command + Alt + Shift + R</li>
