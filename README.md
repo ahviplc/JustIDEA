@@ -279,19 +279,19 @@ https://blog.csdn.net/xietansheng/article/details/78079800
 JavaSwing_5.6: 系统托盘（System Tray）
 https://blog.csdn.net/xietansheng/article/details/78389278
 
-JavaSwing_5.4: 多线程并发与线程安全_XTS的专栏-CSDN博客
+JavaSwing_5.4: 多线程并发与线程安全
 https://blog.csdn.net/xietansheng/article/details/78389265
 
 Java代码截屏：使用 Java 代码截取电脑屏幕并保存
 https://blog.csdn.net/xietansheng/article/details/78453640
 
-Java操作桌面应用 --- Desktop 类_XTS的专栏-CSDN博客
+Java操作桌面应用 --- Desktop 类
 https://blog.csdn.net/xietansheng/article/details/78453718
 
-666 - Java操作系统剪贴板(Clipboard)实现复制和粘贴_XTS的专栏-CSDN博客
+666 - Java操作系统剪贴板(Clipboard)实现复制和粘贴
 https://blog.csdn.net/xietansheng/article/details/70478266
 
-666 - JavaSwing_4.2: JDialog、JOptionPane（对话框）_XTS的专栏-CSDN博客_jdialog
+666 - JavaSwing_4.2: JDialog、JOptionPane（对话框）
 https://blog.csdn.net/xietansheng/article/details/75948933
 ```
 
