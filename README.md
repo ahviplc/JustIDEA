@@ -293,6 +293,38 @@ https://blog.csdn.net/xietansheng/article/details/70478266
 
 666 - JavaSwing_4.2: JDialog、JOptionPane（对话框）
 https://blog.csdn.net/xietansheng/article/details/75948933
+
+666 - JavaSwing_4.7: JPopupMenu（弹出菜单）
+https://blog.csdn.net/xietansheng/article/details/78079800
+
+docsify
+https://docsify.js.org/#/
+
+GitHub - docsifyjs/docsify: 🃏 A magical documentation site generator.
+https://github.com/docsifyjs/docsify
+
+Emoji工具-EmojiUtil
+https://www.hutool.cn/docs/#/extra/emoji/Emoji￥ﾷﾥ￥ﾅﾷ-EmojiUtil
+
+GitHub - dromara/hutool: 🍬A set of tools that keep Java sweet.
+https://github.com/dromara/hutool
+
+📙 Emojipedia — 😃 Home of Emoji Meanings 💁👌🎍😍
+https://emojipedia.org/
+
+😺 GitHub Emoji Support and Emoji Codes Emoji List
+https://emojipedia.org/github/
+
+在下面网址拿出Shortcodes 如【:waving_hand:】配合hutool工具的EmojiUtil使用.
+使用方式:【EmojiUtil.toUnicode(":waving_hand:")】
+👋 Waving Hand Sign Emoji
+https://emojipedia.org/waving-hand/
+
+Maven Repository: com.vdurmont » emoji-java
+https://mvnrepository.com/artifact/com.vdurmont/emoji-java
+
+GitHub - vdurmont/emoji-java: The missing emoji library for Java
+https://github.com/vdurmont/emoji-java
 ```
 
 ## Notes
@@ -306,6 +338,7 @@ https://blog.csdn.net/xietansheng/article/details/75948933
 * fastgit : 将github项目链接转成fastgit快速访问版链接
 * github1s : 将github项目链接转成github1s可编辑vscode版链接
 * 复制到系统剪贴板 : 将输入区文本内容复制到系统剪贴板
+* 右键弹出菜单 : 在本插件空白区域点击鼠标右键,显示扩展功能按钮
 ```
 
 ### 2. 注意点

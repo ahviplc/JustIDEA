@@ -4,6 +4,7 @@ import cn.hutool.core.lang.Console;
 import cn.hutool.core.util.RandomUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.http.HttpUtil;
+import com.lc.DataCenter.DataCenter;
 import com.lc.utils.JustIDEAUtil;
 
 import javax.swing.*;
@@ -34,7 +35,15 @@ public class MyHelloWorldDialog extends JDialog {
 	private JButton Github1sButton;
 	private JButton CopyThatButton;
 
+	// 无参构造函数
 	public MyHelloWorldDialog() {
+		// 直接在内容面板 MyHelloWorldDialogJPanel1 上添加鼠标监听器
+		// 在内容面板 MyHelloWorldDialogJPanel1 下的所有区域均可触发
+		// 文本域 除外 比如 MyInputTextArea MyShowTextArea 均不可触发的.
+		JustIDEAUtil.addMouseListenerForJustIDEA(MyHelloWorldDialogJPanel1);
+
+		// 继续逻辑
+		// 设置 ContentPane
 		setContentPane(MyHelloWorldDialogJPanel1);
 		setModal(true);
 		getRootPane().setDefaultButton(ReadMaximButton);
@@ -99,7 +108,11 @@ public class MyHelloWorldDialog extends JDialog {
 	// 随机字符串按钮 Handle
 	public void RandomStrButtonHandle() {
 		Console.log("...RandomStrButtonHandle...");
-		MyShowTextArea.setText("随机字符串: " + RandomUtil.randomString(5));
+		String randomString = RandomUtil.randomString(5);
+		// 每次将结果 也更新到 数据中心 输出区文本 最新状态的值
+		// 用于其他的组件 获取使用
+		DataCenter.latestShowJLableText = randomString;
+		MyShowTextArea.setText("随机字符串: " + DataCenter.latestShowJLableText);
 	}
 
 	private void fastGitButtonHandle(ActionEvent e) {
@@ -137,8 +150,12 @@ public class MyHelloWorldDialog extends JDialog {
 
 		Console.log("myInputTextAreaText 处理后 => ", myInputTextAreaText);
 
+		// 每次将结果 也更新到 数据中心 输出区文本 最新状态的值
+		// 用于其他的组件 获取使用
+		DataCenter.latestShowJLableText = myInputTextAreaText;
+
 		// 在输出区 显示最后处理完成的 结果
-		MyShowTextArea.setText(myInputTextAreaText);
+		MyShowTextArea.setText(DataCenter.latestShowJLableText);
 	}
 
 	private void github1sButtonHandle(ActionEvent e) {
@@ -177,13 +194,20 @@ public class MyHelloWorldDialog extends JDialog {
 
 		Console.log("myInputTextAreaText 处理后 => ", myInputTextAreaText);
 
+		// 每次将结果 也更新到 数据中心 输出区文本 最新状态的值
+		// 用于其他的组件 获取使用
+		DataCenter.latestShowJLableText = myInputTextAreaText;
+
 		// 在输出区 显示最后处理完成的 结果
-		MyShowTextArea.setText(myInputTextAreaText);
+		MyShowTextArea.setText(DataCenter.latestShowJLableText);
 	}
 
 	// 复制到系统剪贴板 按钮
 	private void CopyThatButtonHandle(ActionEvent e) {
-		// 将输出区的文本复制
-		JustIDEAUtil.setClipboardString(MyShowTextArea.getText());
+		// 每次将结果 也更新到 数据中心 输出区文本 最新状态的值
+		// 用于其他的组件 获取使用
+		// 将输出区的文本复制 从数据中心 latestShowJLableText 取值
+		JustIDEAUtil.setClipboardString(DataCenter.latestShowJLableText);
+		Console.log("...复制到系统剪贴板 按钮 被点击...输出当前系统剪切板的值: {} ...", JustIDEAUtil.getClipboardString());
 	}
 }
