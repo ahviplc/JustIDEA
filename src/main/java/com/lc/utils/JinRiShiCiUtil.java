@@ -2,9 +2,9 @@ package com.lc.utils;
 
 import cn.hutool.cache.CacheUtil;
 import cn.hutool.cache.impl.WeakCache;
-import cn.hutool.core.io.file.FileWriter;
 import cn.hutool.core.lang.Console;
 import cn.hutool.core.util.CharsetUtil;
+import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.http.HttpRequest;
 import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONObject;
@@ -91,6 +91,8 @@ import cn.hutool.json.JSONUtil;
  * }
  */
 public class JinRiShiCiUtil {
+	// 静态弱引用缓存对象
+	static WeakCache<Object, Object> cacheObj;
 	// 古诗词接口url
 	private static String url = "https://v2.jinrishici.com/sentence";
 
@@ -121,9 +123,11 @@ public class JinRiShiCiUtil {
 	 * @return 得到的 token
 	 */
 	public static String getToken() {
+		// 初始化弱引用缓存对象
 		// 缓存失效时长， 0 表示无限制，单位毫秒
-		WeakCache<Object, Object> cacheObj = CacheUtil.newWeakCache(0);
-
+		if (ObjectUtil.isNull(cacheObj)) {
+			cacheObj = CacheUtil.newWeakCache(0);
+		}
 		// 如果缓存 token 不存在 则请求获取 把其放入缓存中
 		if (!cacheObj.containsKey("token")) {
 			// 现获取 token
@@ -145,6 +149,8 @@ public class JinRiShiCiUtil {
 	 */
 	public static void main(String[] args) {
 		String one = getOne();
+		String two = getOne();
 		Console.log("one Poem", one);
+		Console.log("two Poem", two);
 	}
 }
