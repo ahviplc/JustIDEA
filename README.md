@@ -28,9 +28,7 @@
 
 ### ✨ [quick-jsdelivr-download-idea-plugin](https://cdn.jsdelivr.net/gh/ahviplc/JustIDEA@master/dist/JustIDEA-v1.0.0.zip "点我快速使用jsdelivr下载IDEA插件")
 
-### ✨ [quick-gh-proxy-download-idea-plugin](https://gh-proxy.du33169.workers.dev/https://github.com/ahviplc/JustIDEA/blob/master/dist/JustIDEA-v1.0.0.zip "点我快速使用gh-proxy下载IDEA插件")
-
-### ✨ [quick-github.rc1844-download-idea-plugin](https://github.rc1844.workers.dev/ahviplc/JustIDEA/raw/master/dist/JustIDEA-v1.0.0.zip "点我快速使用github.rc1844下载IDEA插件")
+### ✨ [quick-gh-proxy-download-idea-plugin](https://ghproxy.com/https://github.com/ahviplc/JustIDEA/blob/master/dist/JustIDEA-v1.0.0.zip "点我快速使用gh-proxy下载IDEA插件")
 
 `这个 staticaly 下载下来的插件后缀会变为txt,改成zip即可安装使用.`
 
@@ -49,6 +47,8 @@
 ### ✨ [quick-fastgit-download-idea-plugin-latest](https://raw.fastgit.org/ahviplc/JustIDEA/master/dist/latest/JustIDEA-v1.0.0.zip "点我快速使用fastgit下载 2021.1 版本 IDEA 适配插件")
 
 ### ✨ [quick-jsdelivr-download-idea-plugin-latest](https://cdn.jsdelivr.net/gh/ahviplc/JustIDEA@master/dist/latest/JustIDEA-v1.0.0.zip "点我快速使用jsdelivr下载 2021.1 版本 IDEA 适配插件")
+
+### ✨ [quick-gh-proxy-download-idea-plugin-latest](https://ghproxy.com/https://github.com/ahviplc/JustIDEA/blob/master/dist/latest/JustIDEA-v1.0.0.zip "点我快速使用gh-proxy下载 2021.1 版本 IDEA 适配插件")
 
 ## build & Install
 
@@ -195,6 +195,9 @@ https://blog.csdn.net/zhao50632/article/details/20999173
 
 Home | FastGit UK
 https://fastgit.org/
+
+GitHub Proxy 代理加速 | 这个极其不错
+https://ghproxy.com/
 
 jsDelivr - A free, fast, and reliable CDN for open source
 https://www.jsdelivr.com/
